@@ -1,0 +1,17 @@
+# Ignora a pasta do ambiente virtual
+venv/
+
+# Ignora arquivos Python compilados
+__pycache__/
+*.pyc
+
+# Ignora o banco de dados local SQLite
+db.sqlite3
+
+# Ignora variáveis de ambiente
+.env
+
+# Ignora arquivos temporários de sistema/editor
+*.log
+*.swp
+.DS_Store

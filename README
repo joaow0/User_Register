@@ -1,0 +1,131 @@
+
+<p align="right">
+  <a href="#versão-em-português-">🇧🇷 Português</a> •
+  <a href="#english-version-">🇺🇸 English</a>
+</p>
+
+# 🗃️ User Registration System — Version 1
+
+> ⚠️ **This is version 1 of the project.**  
+> It's still under development but already functional and presentable. Future improvements will be added.
+
+## ✨ About the project
+
+This is a complete **user registration system**, featuring a robust backend and full data validation.
+
+While the frontend is still very simple (basic HTML with input fields), the backend is fully functional and secure. All field validators are implemented, with real-time error detection and **email verification before saving user data** to the database.
+
+## 🚀 Features
+
+- Full input validation
+- Password confirmation
+- Email verification link sending
+- Data saved only after email confirmation
+- Immediate error feedback on frontend
+
+## 🛠️ Technologies used
+
+- HTML5 (basic)
+- CSS3 (minimal)
+- Python
+- Django
+- SMTP (for email sending)
+
+## 🧪 How to run the project
+
+```bash
+# Clone the repository
+git clone https://github.com/joaow0/user-registration.git
+
+# Enter the folder
+cd your-repo
+
+# Create virtual environment
+python -m venv venv
+
+# Activate the environment
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+
+
+# Set environment variables (.env)
+
+# Run migrations
+python manage.py migrate
+
+# Start the server
+python manage.py runserver
+```
+
+---
+
+<p align="right">
+  <a href="#top">🔝 Back to top</a>
+</p>
+
+---
+
+# 🇧🇷 Versão em Português
+
+> ⚠️ **Esta é a versão 1 do projeto.**  
+> Ele ainda está em desenvolvimento, mas já se encontra funcional e apresentável. Futuras melhorias serão adicionadas.
+
+## ✨ Sobre o projeto
+
+Este é um sistema completo de **cadastro de usuários**, com backend robusto e verificação completa dos dados.
+
+Mesmo com um frontend bem simples (HTML básico com campos de preenchimento), o backend é 100% funcional e seguro. Todos os validadores estão implementados, com verificação de erros em tempo real e **envio de link por e-mail para confirmar o endereço do usuário** antes de salvar os dados no banco.
+
+## 🚀 Funcionalidades
+
+- Validação completa de campos
+- Confirmação de senha
+- Envio de e-mail com link de verificação
+- Salvamento de dados somente após confirmação
+- Feedbacks de erro imediatos no frontend
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5 (básico)
+- CSS3 (mínimo)
+- Python
+- Django
+- SMTP (para envio de e-mails)
+
+## 🧪 Como rodar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/joaow0/user-registration.git
+
+# Acesse a pasta
+cd seu-repo
+
+# Crie o ambiente virtual
+python -m venv venv
+
+# Ative o ambiente
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+
+# Configure as variáveis de ambiente (.env)
+
+# Rode as migrações
+python manage.py migrate
+
+# Inicie o servidor
+python manage.py runserver
+```
+
+
+---
+
+<p align="right">
+  <a href="#top">🔝 Voltar ao topo</a>
+</p>
